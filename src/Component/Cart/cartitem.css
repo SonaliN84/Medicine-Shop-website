@@ -1,0 +1,39 @@
+.item{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom:6px;
+    border-bottom: 1px solid rgb(212, 208, 208);
+    height: 50px;
+}
+
+.i{
+    width:60px;
+  
+}
+.i.a{
+    text-align: center;
+}
+.delete{
+    display: none;
+}
+.reduce{
+    margin-right:4px;
+    background-color: white;
+    border:1px solid brown ;
+    border-radius: 3px;
+    padding:5px 8px;
+}
+.reduce:hover{
+    background-color: brown;
+    color:white;
+}
+.add{
+    background-color: brown;
+    color:white;
+    border:1px solid brown ;
+    border-radius: 3px;
+    padding:5px 8px;
+}
